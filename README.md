@@ -13,6 +13,12 @@
   https://thegtmdirectory.com
   https://www.crunchbase.com/person/jay-mount-82d4
   https://www.skills.sh/cmj-hub
+  https://jaymountconsulting.com/learn/free-course
+  https://jaymountconsulting.com/learn/courses
+  https://jaymountconsulting.com/prototypes
+  https://jaymountconsulting.com/blog
+  https://jaymountconsulting.com/glossary
+  https://jaymountconsulting.com/frameworks
 -->
 
 <div align="center">
@@ -124,19 +130,43 @@ The scorer is Python in the repo.
 
 ---
 
-## Operator research
+## Operator stack
 
-DataForSEO, Serper, Firecrawl, and Exa are research tools the operator uses. PageSpeed Insights and Google Search Console sit in that same set. Clay is a Solutions Partner credential.
+DataForSEO, Serper, Firecrawl, Exa, and Perplexity are research tools the operator uses. PageSpeed Insights, Google Search Console, and Google Analytics sit in that same set. Google Ads, Meta Ads, and LinkedIn Ads are connected accounts. Clay is a Solutions Partner credential. YouTube is the video channel.
 
 <p align="left">
   <img src="https://img.shields.io/badge/DataForSEO-0066FF?style=for-the-badge" alt="DataForSEO" />
   <img src="https://img.shields.io/badge/Serper-1A1A1A?style=for-the-badge" alt="Serper" />
   <img src="https://img.shields.io/badge/Firecrawl-FF6B35?style=for-the-badge" alt="Firecrawl" />
   <img src="https://img.shields.io/badge/Exa-111111?style=for-the-badge" alt="Exa" />
+  <img src="https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge" alt="Perplexity" />
   <img src="https://img.shields.io/badge/PageSpeed_Insights-4285F4?style=for-the-badge" alt="PageSpeed Insights" />
   <img src="https://img.shields.io/badge/Search_Console-458CF5?style=for-the-badge" alt="Google Search Console" />
+  <img src="https://img.shields.io/badge/Google_Analytics-E37400?style=for-the-badge" alt="Google Analytics" />
+  <img src="https://img.shields.io/badge/Google_Ads-4285F4?style=for-the-badge" alt="Google Ads" />
+  <img src="https://img.shields.io/badge/Meta_Ads-0668E1?style=for-the-badge" alt="Meta Ads" />
+  <img src="https://img.shields.io/badge/LinkedIn_Ads-0A66C2?style=for-the-badge" alt="LinkedIn Ads" />
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   <img src="https://img.shields.io/badge/Clay-Solutions%20Partner-000000?style=for-the-badge" alt="Clay Solutions Partner" />
 </p>
+
+Each pack scorer is Python in the repo.
+
+---
+
+## Free resources
+
+Free build guides, free tools, and [The GTM Directory](https://thegtmdirectory.com).
+
+- [Free build guides](https://jaymountconsulting.com/learn/free-course)
+- [Build guides](https://jaymountconsulting.com/learn/courses) across [four systems](https://jaymountconsulting.com/learn/stacks)
+- [Free tools](https://jaymountconsulting.com/prototypes), including a [ROAS calculator](https://jaymountconsulting.com/tools/roas-calculator), a [Meta ads diagnostic](https://jaymountconsulting.com/tools/meta-ads-drop-diagnostic), [paid media efficiency](https://jaymountconsulting.com/tools/paid-media-efficiency), a [generative engine visibility audit](https://jaymountconsulting.com/tools/geo-visibility-audit), and an [llms.txt generator](https://jaymountconsulting.com/tools/llms-txt-generator)
+- [Templates](https://jaymountconsulting.com/templates), [playbooks](https://jaymountconsulting.com/playbooks), and [downloads](https://jaymountconsulting.com/resources)
+- [Frameworks](https://jaymountconsulting.com/frameworks) and the [glossary](https://jaymountconsulting.com/glossary)
+- [Blog](https://jaymountconsulting.com/blog) and [Friday Signal](https://jaymountconsulting.com/newsletter/signal)
+- [Growth Audit](https://jaymountconsulting.com/growth-audit)
+- [GTM Data Atlas](https://jaymountconsulting.com/data-sources)
+- [Agent skills](https://jaymountconsulting.com/skills) and the [public packs](https://www.skills.sh/cmj-hub)
 
 ---
 

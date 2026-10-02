@@ -112,7 +112,9 @@ Everything here is MIT licensed. The same command works in Claude Code, Cursor, 
 
 ---
 
-## Where they run
+## Tech stack
+
+### AI & Agents
 
 <p align="left">
   <img src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge" alt="Claude Code" />
@@ -123,16 +125,14 @@ Everything here is MIT licensed. The same command works in Claude Code, Cursor, 
   <img src="https://img.shields.io/badge/Windsurf-0B1221?style=for-the-badge" alt="Windsurf" />
   <img src="https://img.shields.io/badge/Cline-111111?style=for-the-badge" alt="Cline" />
   <img src="https://img.shields.io/badge/OpenCode-111111?style=for-the-badge" alt="OpenCode" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge" alt="Gemini" />
+  <img src="https://img.shields.io/badge/MCP-6E56CF?style=for-the-badge" alt="MCP" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
-The scorer is Python in the repo.
+The packs install into those agents. Each scorer is Python in the repo.
 
----
-
-## Operator stack
-
-DataForSEO, Serper, Firecrawl, Exa, and Perplexity are research tools the operator uses. PageSpeed Insights, Google Search Console, and Google Analytics sit in that same set. Google Ads, Meta Ads, and LinkedIn Ads are connected accounts. Clay is a Solutions Partner credential. YouTube is the video channel.
+### Marketing & SEO
 
 <p align="left">
   <img src="https://img.shields.io/badge/DataForSEO-0066FF?style=for-the-badge" alt="DataForSEO" />
@@ -140,17 +140,19 @@ DataForSEO, Serper, Firecrawl, Exa, and Perplexity are research tools the operat
   <img src="https://img.shields.io/badge/Firecrawl-FF6B35?style=for-the-badge" alt="Firecrawl" />
   <img src="https://img.shields.io/badge/Exa-111111?style=for-the-badge" alt="Exa" />
   <img src="https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge" alt="Perplexity" />
-  <img src="https://img.shields.io/badge/PageSpeed_Insights-4285F4?style=for-the-badge" alt="PageSpeed Insights" />
-  <img src="https://img.shields.io/badge/Search_Console-458CF5?style=for-the-badge" alt="Google Search Console" />
-  <img src="https://img.shields.io/badge/Google_Analytics-E37400?style=for-the-badge" alt="Google Analytics" />
   <img src="https://img.shields.io/badge/Google_Ads-4285F4?style=for-the-badge" alt="Google Ads" />
   <img src="https://img.shields.io/badge/Meta_Ads-0668E1?style=for-the-badge" alt="Meta Ads" />
   <img src="https://img.shields.io/badge/LinkedIn_Ads-0A66C2?style=for-the-badge" alt="LinkedIn Ads" />
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
   <img src="https://img.shields.io/badge/Clay-Solutions%20Partner-000000?style=for-the-badge" alt="Clay Solutions Partner" />
 </p>
 
-Each pack scorer is Python in the repo.
+### Languages & Web
+
+<p align="left">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" />
+</p>
 
 ---
 

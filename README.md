@@ -40,19 +40,13 @@
 
 ## About
 
-Founders search for a value proposition, a landing page, a pricing strategy, and generative engine optimization.
-
-Answer engine optimization is the other name for that last job.
-
-The other six are cold email, LinkedIn posts, an ideal customer profile, sales prospecting, a sales offer, and an email sequence.
+Each pack is one job.
 
 The build guide teaches a human. The pack teaches an agent.
 
-Install a pack in the quickstart. The catalog is the full set.
-
 The check runs on your machine.
 
-The packs run in Claude Code, Cursor, Codex, Grok, Copilot, Windsurf, Cline, and OpenCode.
+The same files install into Claude Code, Cursor, Codex, Grok, Copilot, Windsurf, Cline, and OpenCode.
 
 Writing is on [jaymount.com](https://jaymount.com/). The company site is [jaymountconsulting.com](https://jaymountconsulting.com). The weekly note is [Friday Signal](https://jaymountconsulting.com/newsletter/signal).
 
@@ -60,39 +54,70 @@ Writing is on [jaymount.com](https://jaymount.com/). The company site is [jaymou
 
 ## Quickstart
 
+One command installs one pack. List the repos to install several.
+
+```bash
+for repo in claude-evp claude-landing-page; do
+  npx skills add cmj-hub/$repo --all -g --full-depth
+done
+```
+
+`--all` writes that pack for every host the installer knows. One host:
+
+```bash
+npx skills add cmj-hub/claude-evp --skill '*' -g --full-depth -y -a claude-code
+```
+
+Swap `claude-code` for `cursor`, `codex`, `grok`, `github-copilot`, `windsurf`, `cline`, or `opencode`.
+
+### The offer
+
 ```bash
 # Value proposition
 npx skills add cmj-hub/claude-evp --all -g --full-depth
 
-# Landing page
-npx skills add cmj-hub/claude-landing-page --all -g --full-depth
-
 # Pricing strategy
 npx skills add cmj-hub/claude-pricing --all -g --full-depth
 
+# Sales offer
+npx skills add cmj-hub/claude-sales-offer --all -g --full-depth
+```
+
+### The page
+
+Answer engine optimization is the generative engine optimization pack.
+
+```bash
+# Landing page
+npx skills add cmj-hub/claude-landing-page --all -g --full-depth
+
 # Generative engine optimization
 npx skills add cmj-hub/claude-geo --all -g --full-depth
+```
 
-# Cold email
-npx skills add cmj-hub/claude-cold-email --all -g --full-depth
+### Who you write to
 
-# LinkedIn posts
-npx skills add cmj-hub/claude-founder-brand --all -g --full-depth
-
+```bash
 # Ideal customer profile
 npx skills add cmj-hub/claude-psp --all -g --full-depth
 
 # Sales prospecting
 npx skills add cmj-hub/claude-prospect-list --all -g --full-depth
 
-# Sales offer
-npx skills add cmj-hub/claude-sales-offer --all -g --full-depth
+# Cold email
+npx skills add cmj-hub/claude-cold-email --all -g --full-depth
 
 # Email sequence
 npx skills add cmj-hub/claude-email-sequence --all -g --full-depth
 ```
 
-Everything here is MIT licensed. The same command works in Claude Code, Cursor, Codex, Grok, Copilot, Windsurf, Cline, and OpenCode. The catalog is [gtm-operator-skills](https://github.com/cmj-hub/gtm-operator-skills).
+### LinkedIn posts
+
+```bash
+npx skills add cmj-hub/claude-founder-brand --all -g --full-depth
+```
+
+Everything here is MIT licensed. The catalog is [gtm-operator-skills](https://github.com/cmj-hub/gtm-operator-skills).
 
 ---
 

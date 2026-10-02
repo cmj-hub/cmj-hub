@@ -118,80 +118,107 @@ Everything here is MIT licensed. The same command works in Claude Code, Cursor, 
 
 ---
 
-## Tech Stack
+## Tech stack
 
-### AI & Agents
+Tools I use. The packs do not call them.
+
+### Agents
+
 <p align="left">
-  <img src="https://img.shields.io/badge/Claude_Code-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
-  <img src="https://img.shields.io/badge/Codex-000000?style=for-the-badge&logoColor=white" alt="Codex" />
+  <img src="https://img.shields.io/badge/Claude_Code-111111?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/Cursor-111111?style=for-the-badge&logo=cursor&logoColor=white" alt="Cursor" />
+  <img src="https://img.shields.io/badge/Codex-111111?style=for-the-badge&logoColor=white" alt="Codex" />
   <img src="https://img.shields.io/badge/Grok-111111?style=for-the-badge&logoColor=white" alt="Grok" />
-  <img src="https://img.shields.io/badge/Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Copilot" />
-  <img src="https://img.shields.io/badge/Windsurf-0B1221?style=for-the-badge&logoColor=white" alt="Windsurf" />
+  <img src="https://img.shields.io/badge/Copilot-111111?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="Copilot" />
+  <img src="https://img.shields.io/badge/Windsurf-111111?style=for-the-badge&logoColor=white" alt="Windsurf" />
   <img src="https://img.shields.io/badge/Cline-111111?style=for-the-badge&logoColor=white" alt="Cline" />
   <img src="https://img.shields.io/badge/OpenCode-111111?style=for-the-badge&logoColor=white" alt="OpenCode" />
-  <img src="https://img.shields.io/badge/Gemini-886FBF?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logoColor=white" alt="MCP" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Gemini-111111?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logoColor=white" alt="MCP" />
 </p>
 
-### Marketing & SEO
+### Research
+
 <p align="left">
-  <img src="https://img.shields.io/badge/DataForSEO-0066FF?style=for-the-badge&logoColor=white" alt="DataForSEO" />
-  <img src="https://img.shields.io/badge/Serper-1A1A1A?style=for-the-badge&logoColor=white" alt="Serper" />
-  <img src="https://img.shields.io/badge/Firecrawl-FF6B35?style=for-the-badge&logoColor=white" alt="Firecrawl" />
+  <img src="https://img.shields.io/badge/DataForSEO-111111?style=for-the-badge&logoColor=white" alt="DataForSEO" />
+  <img src="https://img.shields.io/badge/Serper-111111?style=for-the-badge&logoColor=white" alt="Serper" />
+  <img src="https://img.shields.io/badge/Firecrawl-111111?style=for-the-badge&logoColor=white" alt="Firecrawl" />
   <img src="https://img.shields.io/badge/Exa-111111?style=for-the-badge&logoColor=white" alt="Exa" />
-  <img src="https://img.shields.io/badge/Perplexity-20808D?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity" />
-  <img src="https://img.shields.io/badge/Google_Ads-4285F4?style=for-the-badge&logo=googleads&logoColor=white" alt="Google Ads" />
-  <img src="https://img.shields.io/badge/Meta_Ads-0081FB?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Ads" />
-  <img src="https://img.shields.io/badge/LinkedIn_Ads-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Ads" />
-  <img src="https://img.shields.io/badge/Clay-000000?style=for-the-badge&logoColor=white" alt="Clay Solutions Partner" />
+  <img src="https://img.shields.io/badge/Perplexity-111111?style=for-the-badge&logo=perplexity&logoColor=white" alt="Perplexity" />
+  <img src="https://img.shields.io/badge/Clay_Solutions_Partner-111111?style=for-the-badge&logoColor=white" alt="Clay, Solutions Partner" />
 </p>
 
-### Video & Media
+### Ads
+
 <p align="left">
-  <img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+  <img src="https://img.shields.io/badge/Google_Ads-111111?style=for-the-badge&logo=googleads&logoColor=white" alt="Google Ads" />
+  <img src="https://img.shields.io/badge/Meta_Ads-111111?style=for-the-badge&logo=meta&logoColor=white" alt="Meta Ads" />
+  <img src="https://img.shields.io/badge/LinkedIn_Ads-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Ads" />
 </p>
 
-### Languages & Web
+### Build
+
 <p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" />
+  <img src="https://img.shields.io/badge/TypeScript-111111?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Shell-111111?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" />
+  <img src="https://img.shields.io/badge/FFmpeg-111111?style=for-the-badge&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
 </p>
 
 ---
 
 ## Connect
 
-<p align="center">
-  <a href="https://jaymount.com/"><img src="https://img.shields.io/badge/Website-jaymount.com-0e75b6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="jaymount.com" /></a>
-  <a href="https://jaymountconsulting.com"><img src="https://img.shields.io/badge/Consulting-jaymountconsulting.com-00D4FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="jaymountconsulting.com" /></a>
-  <a href="https://www.linkedin.com/in/jaymount"><img src="https://img.shields.io/badge/LinkedIn-jaymount-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://x.com/thejaymount"><img src="https://img.shields.io/badge/X-@thejaymount-000000?style=for-the-badge&logo=x&logoColor=white" alt="X @thejaymount" /></a>
-  <a href="https://www.youtube.com/@thejaymount"><img src="https://img.shields.io/badge/YouTube-@thejaymount-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube @thejaymount" /></a>
-</p>
-<p align="center">
-  <a href="https://jaymountconsulting.com/newsletter/signal"><img src="https://img.shields.io/badge/Newsletter-Friday%20Signal-111111?style=for-the-badge&logoColor=white" alt="Friday Signal" /></a>
-  <a href="https://thegtmdirectory.com"><img src="https://img.shields.io/badge/Directory-The%20GTM%20Directory-111111?style=for-the-badge&logoColor=white" alt="The GTM Directory" /></a>
-  <a href="https://www.crunchbase.com/person/jay-mount-82d4"><img src="https://img.shields.io/badge/Crunchbase-Jay%20Mount-0288D1?style=for-the-badge&logo=crunchbase&logoColor=white" alt="Crunchbase" /></a>
-  <a href="https://www.skills.sh/cmj-hub"><img src="https://img.shields.io/badge/skills.sh-cmj--hub-111111?style=for-the-badge&logoColor=white" alt="skills.sh/cmj-hub" /></a>
-  <a href="https://github.com/cmj-hub/gtm-operator-skills"><img src="https://img.shields.io/badge/Catalog-Ten%20packs-00D4FF?style=for-the-badge&logoColor=white" alt="Ten public packs" /></a>
-  <a href="https://github.com/JMC-Go-to-market"><img src="https://img.shields.io/badge/GitHub-JMC--Go--to--market-181717?style=for-the-badge&logo=github&logoColor=white" alt="JMC-Go-to-market" /></a>
+<p align="left">
+  <a href="https://jaymount.com/"><img src="https://img.shields.io/badge/jaymount.com-111111?style=for-the-badge&logoColor=white" alt="jaymount.com" /></a>
+  <a href="https://jaymountconsulting.com"><img src="https://img.shields.io/badge/jaymountconsulting.com-111111?style=for-the-badge&logoColor=white" alt="jaymountconsulting.com" /></a>
+  <a href="https://www.linkedin.com/in/jaymount"><img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://x.com/thejaymount"><img src="https://img.shields.io/badge/%40thejaymount-111111?style=for-the-badge&logo=x&logoColor=white" alt="X @thejaymount" /></a>
+  <a href="https://www.youtube.com/@thejaymount"><img src="https://img.shields.io/badge/YouTube-111111?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube @thejaymount" /></a>
+  <a href="https://jaymountconsulting.com/newsletter/signal"><img src="https://img.shields.io/badge/Friday_Signal-111111?style=for-the-badge&logoColor=white" alt="Friday Signal" /></a>
+  <a href="https://thegtmdirectory.com"><img src="https://img.shields.io/badge/The_GTM_Directory-111111?style=for-the-badge&logoColor=white" alt="The GTM Directory" /></a>
+  <a href="https://www.crunchbase.com/person/jay-mount-82d4"><img src="https://img.shields.io/badge/Crunchbase-111111?style=for-the-badge&logo=crunchbase&logoColor=white" alt="Crunchbase" /></a>
+  <a href="https://www.skills.sh/cmj-hub"><img src="https://img.shields.io/badge/skills.sh-111111?style=for-the-badge&logoColor=white" alt="skills.sh/cmj-hub" /></a>
+  <a href="https://github.com/cmj-hub/gtm-operator-skills"><img src="https://img.shields.io/badge/Ten_packs-CC4714?style=for-the-badge&logoColor=white" alt="Ten public packs" /></a>
+  <a href="https://github.com/JMC-Go-to-market"><img src="https://img.shields.io/badge/JMC--Go--to--market-111111?style=for-the-badge&logo=github&logoColor=white" alt="JMC-Go-to-market" /></a>
 </p>
 
 ---
 
 ## Free resources
 
-Free build guides, free tools, and [The GTM Directory](https://thegtmdirectory.com).
+The guides teach a person. The tools are free.
+
+### Guides
 
 - [Free build guides](https://jaymountconsulting.com/learn/free-course)
-- [Build guides](https://jaymountconsulting.com/learn/courses) across [four systems](https://jaymountconsulting.com/learn/stacks)
-- [Free tools](https://jaymountconsulting.com/prototypes), including a [ROAS calculator](https://jaymountconsulting.com/tools/roas-calculator), a [Meta ads diagnostic](https://jaymountconsulting.com/tools/meta-ads-drop-diagnostic), [paid media efficiency](https://jaymountconsulting.com/tools/paid-media-efficiency), a [generative engine visibility audit](https://jaymountconsulting.com/tools/geo-visibility-audit), and an [llms.txt generator](https://jaymountconsulting.com/tools/llms-txt-generator)
-- [Templates](https://jaymountconsulting.com/templates), [playbooks](https://jaymountconsulting.com/playbooks), and [downloads](https://jaymountconsulting.com/resources)
-- [Frameworks](https://jaymountconsulting.com/frameworks) and the [glossary](https://jaymountconsulting.com/glossary)
-- [Blog](https://jaymountconsulting.com/blog) and [Friday Signal](https://jaymountconsulting.com/newsletter/signal)
+- [All build guides](https://jaymountconsulting.com/learn/courses)
+- [Build guides across four systems](https://jaymountconsulting.com/learn/stacks)
+
+### Tools
+
+- [All free tools](https://jaymountconsulting.com/prototypes)
+- [ROAS calculator](https://jaymountconsulting.com/tools/roas-calculator)
+- [Meta ads diagnostic](https://jaymountconsulting.com/tools/meta-ads-drop-diagnostic)
+- [Paid media efficiency](https://jaymountconsulting.com/tools/paid-media-efficiency)
+- [Generative engine visibility audit](https://jaymountconsulting.com/tools/geo-visibility-audit)
+- [llms.txt generator](https://jaymountconsulting.com/tools/llms-txt-generator)
+
+### Reading
+
+- [Blog](https://jaymountconsulting.com/blog)
+- [Glossary](https://jaymountconsulting.com/glossary)
+- [Frameworks](https://jaymountconsulting.com/frameworks)
+- [Templates](https://jaymountconsulting.com/templates)
+- [Playbooks](https://jaymountconsulting.com/playbooks)
+- [Downloads](https://jaymountconsulting.com/resources)
+- [Friday Signal](https://jaymountconsulting.com/newsletter/signal)
+
+### Directory
+
+- [The GTM Directory](https://thegtmdirectory.com)
 - [Growth Audit](https://jaymountconsulting.com/growth-audit)
 - [GTM Data Atlas](https://jaymountconsulting.com/data-sources)
-- [Agent skills](https://jaymountconsulting.com/skills) and the [public packs](https://www.skills.sh/cmj-hub)
+- [Agent skills](https://jaymountconsulting.com/skills)
+- [Public packs](https://www.skills.sh/cmj-hub)

@@ -24,7 +24,7 @@
 <div align="center">
 
   <a href="https://github.com/cmj-hub/gtm-operator-skills">
-    <img src="./assets/offers.svg" width="880" alt="Jay Mount — Claude Code skills. Free build guides, free GTM tools, The GTM Directory, Friday Signal, Growth Audit, value proposition." />
+    <img src="./assets/profile.svg" width="880" alt="Jay Mount. Claude Code skills. Ten MIT packs. Free build guides, free GTM tools, The GTM Directory, Friday Signal, Growth Audit, value proposition." />
   </a>
 
 </div>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Jay Mount. Claude Code skills. Ten MIT packs. Free build guides, free GTM tools, The GTM Directory, Friday Signal, Growth Audit, value proposition.">
+  <style>
+    .c { animation-duration: 12s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+    .c0 { animation-name: p0; }
+    .c1 { animation-name: p1; }
+    .c2 { animation-name: p2; }
+    .c3 { animation-name: p3; }
+    .c4 { animation-name: p4; }
+    .c5 { animation-name: p5; }
+    @keyframes p0 {
+      0%, 16.6666% { opacity: 1; }
+      16.6667%, 100% { opacity: 0; }
+    }
+    @keyframes p1 {
+      0%, 16.6666% { opacity: 0; }
+      16.6667%, 33.3332% { opacity: 1; }
+      33.3333%, 100% { opacity: 0; }
+    }
+    @keyframes p2 {
+      0%, 33.3332% { opacity: 0; }
+      33.3333%, 49.9999% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes p3 {
+      0%, 49.9999% { opacity: 0; }
+      50%, 66.6665% { opacity: 1; }
+      66.6666%, 100% { opacity: 0; }
+    }
+    @keyframes p4 {
+      0%, 66.6665% { opacity: 0; }
+      66.6666%, 83.3332% { opacity: 1; }
+      83.3333%, 100% { opacity: 0; }
+    }
+    @keyframes p5 {
+      0%, 83.3332% { opacity: 0; }
+      83.3333%, 99.9999% { opacity: 1; }
+      100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .c { animation: none; opacity: 0; }
+      .c0 { opacity: 1; }
+    }
+  </style>
+  <rect width="1280" height="320" fill="#060609"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="64" y="108" fill="#A1A1AA" font-size="18" font-weight="500" letter-spacing="1.6">CLAUDE CODE SKILLS</text>
+    <text x="64" y="180" fill="#F4F4F5" font-size="72" font-weight="700" letter-spacing="-1.4">Jay Mount</text>
+    <text x="64" y="224" fill="#A1A1AA" font-size="22" font-weight="400">Ten MIT packs. Local Python scorers.</text>
+    <text x="64" y="268" fill="#8B8B98" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="400">github.com/cmj-hub/gtm-operator-skills</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="56" font-weight="650" fill="#00D4FF" text-anchor="end" letter-spacing="-0.8">
+    <text class="c c0" x="1216" y="180">Free build guides</text>
+    <text class="c c1" x="1216" y="180">Free GTM tools</text>
+    <text class="c c2" x="1216" y="180">The GTM Directory</text>
+    <text class="c c3" x="1216" y="180">Friday Signal</text>
+    <text class="c c4" x="1216" y="180">Growth Audit</text>
+    <text class="c c5" x="1216" y="180">Value proposition</text>
+  </g>
+</svg>

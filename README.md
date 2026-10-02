@@ -124,6 +124,22 @@ The scorer is Python in the repo.
 
 ---
 
+## Operator research
+
+DataForSEO, Serper, Firecrawl, and Exa are research tools the operator uses. PageSpeed Insights and Google Search Console sit in that same set. Clay is a Solutions Partner credential.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/DataForSEO-0066FF?style=for-the-badge" alt="DataForSEO" />
+  <img src="https://img.shields.io/badge/Serper-1A1A1A?style=for-the-badge" alt="Serper" />
+  <img src="https://img.shields.io/badge/Firecrawl-FF6B35?style=for-the-badge" alt="Firecrawl" />
+  <img src="https://img.shields.io/badge/Exa-111111?style=for-the-badge" alt="Exa" />
+  <img src="https://img.shields.io/badge/PageSpeed_Insights-4285F4?style=for-the-badge" alt="PageSpeed Insights" />
+  <img src="https://img.shields.io/badge/Search_Console-458CF5?style=for-the-badge" alt="Google Search Console" />
+  <img src="https://img.shields.io/badge/Clay-Solutions%20Partner-000000?style=for-the-badge" alt="Clay Solutions Partner" />
+</p>
+
+---
+
 ## Connect
 
 <p align="center">

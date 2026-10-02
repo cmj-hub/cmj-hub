@@ -7,25 +7,48 @@
     .t3 { animation-delay: .28s; }
     .t4 { animation-delay: .44s; }
     @keyframes tin { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
-    .sheen { animation: sweep 8s ease-in-out 1.2s infinite; }
-    @keyframes sweep { 0% { transform: translateX(-240px); opacity: 0; } 15% { opacity: .55; } 85% { opacity: .55; } 100% { transform: translateX(1320px); opacity: 0; } }
-    .o { animation: offer 12s linear infinite both; }
-    .o2 { animation-delay: -2s; }
-    .o3 { animation-delay: -4s; }
-    .o4 { animation-delay: -6s; }
-    .o5 { animation-delay: -8s; }
-    .o6 { animation-delay: -10s; }
-    @keyframes offer {
-      0%, 15.8% { opacity: 1; }
-      16.67%, 100% { opacity: 0; }
+    .c { animation-duration: 12s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+    .c0 { animation-name: p0; }
+    .c1 { animation-name: p1; }
+    .c2 { animation-name: p2; }
+    .c3 { animation-name: p3; }
+    .c4 { animation-name: p4; }
+    .c5 { animation-name: p5; }
+    @keyframes p0 {
+      0%, 16.6666% { opacity: 1; }
+      16.6667%, 100% { opacity: 0; }
+    }
+    @keyframes p1 {
+      0%, 16.6666% { opacity: 0; }
+      16.6667%, 33.3332% { opacity: 1; }
+      33.3333%, 100% { opacity: 0; }
+    }
+    @keyframes p2 {
+      0%, 33.3332% { opacity: 0; }
+      33.3333%, 49.9999% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes p3 {
+      0%, 49.9999% { opacity: 0; }
+      50%, 66.6665% { opacity: 1; }
+      66.6666%, 100% { opacity: 0; }
+    }
+    @keyframes p4 {
+      0%, 66.6665% { opacity: 0; }
+      66.6666%, 83.3332% { opacity: 1; }
+      83.3333%, 100% { opacity: 0; }
+    }
+    @keyframes p5 {
+      0%, 83.3332% { opacity: 0; }
+      83.3333%, 99.9999% { opacity: 1; }
+      100% { opacity: 0; }
     }
     @media (prefers-reduced-motion: reduce) {
-      .grid, .type, .sheen, .o { animation: none; }
+      .grid, .type, .c { animation: none; }
       .grid { opacity: .28; }
       .type { opacity: 1; }
-      .sheen { opacity: 0; }
-      .o { opacity: 0; }
-      .o.now { opacity: 1; }
+      .c { opacity: 0; }
+      .c0 { opacity: 1; }
     }
   </style>
   <defs>
@@ -76,9 +99,8 @@
     <line x1="-60" y1="300" x2="1400" y2="300" stroke="#252542" stroke-width="1"/>
     </g>
     <rect width="1280" height="320" fill="url(#glow)"/>
-    <rect width="1280" height="3" fill="url(#bar)"/>
-    <rect class="sheen" y="0" width="180" height="3" fill="#ffffff" opacity=".45"/>
-    <rect y="317" width="1280" height="3" fill="url(#bar)"/>
+    <rect width="1280" height="2" fill="url(#bar)"/>
+    <rect y="318" width="1280" height="2" fill="url(#bar)"/>
     <g fill="#EAEAF0" text-anchor="middle">
       <text class="type t2" x="640" y="104" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="500" letter-spacing="3.4">JMC SKILL PACK</text>
       <text class="type t3" x="640" y="176" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="72" font-weight="700">Jay Mount</text>
@@ -86,18 +108,18 @@
       <text class="type" x="640" y="300" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" style="animation-delay:.58s">github.com/cmj-hub/gtm-operator-skills</text>
     </g>
     <g transform="translate(640,252)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="600">
-      <rect class="o o2" x="-124" y="-20" width="248" height="40" rx="8" fill="#10B981"/>
-      <text class="o o2" x="0" y="6" text-anchor="middle" fill="#061016">Value proposition</text>
-      <rect class="o o3" x="-92" y="-20" width="184" height="40" rx="8" fill="#0066FF"/>
-      <text class="o o3" x="0" y="6" text-anchor="middle" fill="#FFFFFF">Growth Audit</text>
-      <rect class="o o4" x="-100" y="-20" width="200" height="40" rx="8" fill="#EAEAF0"/>
-      <text class="o o4" x="0" y="6" text-anchor="middle" fill="#111111">Friday Signal</text>
-      <rect class="o o5" x="-122" y="-20" width="244" height="40" rx="8" fill="#CC4714"/>
-      <text class="o o5" x="0" y="6" text-anchor="middle" fill="#FFFFFF">The GTM Directory</text>
-      <rect class="o o6" x="-102" y="-20" width="204" height="40" rx="8" fill="#8B5CF6"/>
-      <text class="o o6" x="0" y="6" text-anchor="middle" fill="#FFFFFF">Free GTM tools</text>
-      <rect class="o now" x="-118" y="-20" width="236" height="40" rx="8" fill="#00D4FF"/>
-      <text class="o now" x="0" y="6" text-anchor="middle" fill="#061016">Free build guides</text>
+      <rect class="c c0" x="-154" y="-22" width="308" height="44" rx="10" fill="#00D4FF"/>
+      <text class="c c0" x="0" y="6" text-anchor="middle" fill="#061016">Free build guides</text>
+      <rect class="c c1" x="-154" y="-22" width="308" height="44" rx="10" fill="#8B5CF6"/>
+      <text class="c c1" x="0" y="6" text-anchor="middle" fill="#FFFFFF">Free GTM tools</text>
+      <rect class="c c2" x="-154" y="-22" width="308" height="44" rx="10" fill="#CC4714"/>
+      <text class="c c2" x="0" y="6" text-anchor="middle" fill="#FFFFFF">The GTM Directory</text>
+      <rect class="c c3" x="-154" y="-22" width="308" height="44" rx="10" fill="#EAEAF0"/>
+      <text class="c c3" x="0" y="6" text-anchor="middle" fill="#111111">Friday Signal</text>
+      <rect class="c c4" x="-154" y="-22" width="308" height="44" rx="10" fill="#0066FF"/>
+      <text class="c c4" x="0" y="6" text-anchor="middle" fill="#FFFFFF">Growth Audit</text>
+      <rect class="c c5" x="-154" y="-22" width="308" height="44" rx="10" fill="#10B981"/>
+      <text class="c c5" x="0" y="6" text-anchor="middle" fill="#061016">Value proposition</text>
     </g>
   </g>
 </svg>

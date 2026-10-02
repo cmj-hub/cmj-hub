@@ -70,6 +70,13 @@ npx skills add cmj-hub/claude-evp --skill '*' -g --full-depth -y -a claude-code
 
 Swap `claude-code` for `cursor`, `codex`, `grok`, `github-copilot`, `windsurf`, `cline`, or `opencode`.
 
+### Who you write to
+
+```bash
+# Ideal customer profile
+npx skills add cmj-hub/claude-psp --all -g --full-depth
+```
+
 ### The offer
 
 ```bash
@@ -95,26 +102,20 @@ npx skills add cmj-hub/claude-landing-page --all -g --full-depth
 npx skills add cmj-hub/claude-geo --all -g --full-depth
 ```
 
-### Who you write to
+### Distribution
 
 ```bash
-# Ideal customer profile
-npx skills add cmj-hub/claude-psp --all -g --full-depth
-
-# Sales prospecting
-npx skills add cmj-hub/claude-prospect-list --all -g --full-depth
+# LinkedIn posts
+npx skills add cmj-hub/claude-founder-brand --all -g --full-depth
 
 # Cold email
 npx skills add cmj-hub/claude-cold-email --all -g --full-depth
 
 # Email sequence
 npx skills add cmj-hub/claude-email-sequence --all -g --full-depth
-```
 
-### LinkedIn posts
-
-```bash
-npx skills add cmj-hub/claude-founder-brand --all -g --full-depth
+# Sales prospecting
+npx skills add cmj-hub/claude-prospect-list --all -g --full-depth
 ```
 
 Everything here is MIT licensed. The catalog is [gtm-operator-skills](https://github.com/cmj-hub/gtm-operator-skills).

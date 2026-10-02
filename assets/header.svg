@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Jay Mount, Claude Code skills">
+  <style>
+    .grid { transform-box: fill-box; opacity: .28; animation: drift 28s linear infinite; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-60px); } }
+    .type { opacity: 0; animation: tin .8s cubic-bezier(.16,1,.3,1) forwards; }
+    .t2 { animation-delay: .12s; }
+    .t3 { animation-delay: .28s; }
+    .t4 { animation-delay: .44s; }
+    @keyframes tin { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .sheen { animation: sweep 8s ease-in-out 1.2s infinite; }
+    @keyframes sweep { 0% { transform: translateX(-240px); opacity: 0; } 15% { opacity: .55; } 85% { opacity: .55; } 100% { transform: translateX(1320px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .grid,.type,.sheen { animation: none; opacity: 1; }
+      .grid { opacity: .28; }
+      .sheen { opacity: 0; }
+    }
+  </style>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity=".12"/>
+      <stop offset="62%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity=".6"/>
+      <stop offset="50%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#CC4714" stop-opacity=".6"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1280" height="320"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="320" fill="#060609"/>
+    <g class="grid">
+    <line x1="-60" y1="0" x2="-60" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="60" y1="0" x2="60" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="120" y1="0" x2="120" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="180" y1="0" x2="180" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="240" y1="0" x2="240" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="300" y1="0" x2="300" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="360" y1="0" x2="360" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="420" y1="0" x2="420" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="480" y1="0" x2="480" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="540" y1="0" x2="540" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="660" y1="0" x2="660" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="720" y1="0" x2="720" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="780" y1="0" x2="780" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="840" y1="0" x2="840" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="900" y1="0" x2="900" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="960" y1="0" x2="960" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="1020" y1="0" x2="1020" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="1080" y1="0" x2="1080" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="1140" y1="0" x2="1140" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="1200" y1="0" x2="1200" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="1260" y1="0" x2="1260" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="1320" y1="0" x2="1320" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="1380" y1="0" x2="1380" y2="320" stroke="#252542" stroke-width="1"/>
+    <line x1="-60" y1="0" x2="1400" y2="0" stroke="#252542" stroke-width="1"/>
+    <line x1="-60" y1="60" x2="1400" y2="60" stroke="#252542" stroke-width="1"/>
+    <line x1="-60" y1="120" x2="1400" y2="120" stroke="#252542" stroke-width="1"/>
+    <line x1="-60" y1="180" x2="1400" y2="180" stroke="#252542" stroke-width="1"/>
+    <line x1="-60" y1="240" x2="1400" y2="240" stroke="#252542" stroke-width="1"/>
+    <line x1="-60" y1="300" x2="1400" y2="300" stroke="#252542" stroke-width="1"/>
+    </g>
+    <rect width="1280" height="320" fill="url(#glow)"/>
+    <rect width="1280" height="3" fill="url(#bar)"/>
+    <rect class="sheen" y="0" width="180" height="3" fill="#ffffff" opacity=".45"/>
+    <rect y="317" width="1280" height="3" fill="url(#bar)"/>
+    <g fill="#EAEAF0" text-anchor="middle">
+      <text class="type t2" x="640" y="118" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" font-weight="500" letter-spacing="3.4">JMC SKILL PACK</text>
+      <text class="type t3" x="640" y="196" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="76" font-weight="700">Jay Mount</text>
+      <text class="type t4" x="640" y="236" fill="#EAEAF0" fill-opacity=".7" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22">Claude Code skills</text>
+      <text class="type" x="640" y="278" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" style="animation-delay:.58s">github.com/cmj-hub/gtm-operator-skills</text>
+    </g>
+  </g>
+</svg>

@@ -24,7 +24,7 @@
 <div align="center">
 
   <a href="https://github.com/cmj-hub/gtm-operator-skills">
-    <img src="./assets/header.png" width="880" alt="Jay Mount — Claude Code skills" />
+    <img src="./assets/header.svg" width="880" alt="Jay Mount — Claude Code skills" />
   </a>
 
 </div>

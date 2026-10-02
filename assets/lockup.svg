@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="Jay Mount. Claude Code skills for a value proposition, a landing page, pricing strategy, and generative engine optimization. Also cold email, LinkedIn posts, answer engine optimization, an ideal customer profile, sales prospecting, a sales offer, and an email sequence.">
+  <style>
+    .c { animation-duration: 14s; animation-timing-function: linear; animation-iteration-count: infinite; animation-fill-mode: both; }
+    .c0 { animation-name: p0; }
+    .c1 { animation-name: p1; }
+    .c2 { animation-name: p2; }
+    .c3 { animation-name: p3; }
+    .c4 { animation-name: p4; }
+    .c5 { animation-name: p5; }
+    .c6 { animation-name: p6; }
+    @keyframes p0 { 0%, 14.2856% { opacity: 1; } 14.2857%, 100% { opacity: 0; } }
+    @keyframes p1 { 0%, 14.2856% { opacity: 0; } 14.2857%, 28.5713% { opacity: 1; } 28.5714%, 100% { opacity: 0; } }
+    @keyframes p2 { 0%, 28.5713% { opacity: 0; } 28.5714%, 42.8570% { opacity: 1; } 42.8571%, 100% { opacity: 0; } }
+    @keyframes p3 { 0%, 42.8570% { opacity: 0; } 42.8571%, 57.1427% { opacity: 1; } 57.1428%, 100% { opacity: 0; } }
+    @keyframes p4 { 0%, 57.1427% { opacity: 0; } 57.1428%, 71.4284% { opacity: 1; } 71.4285%, 100% { opacity: 0; } }
+    @keyframes p5 { 0%, 71.4284% { opacity: 0; } 71.4285%, 85.7141% { opacity: 1; } 85.7142%, 100% { opacity: 0; } }
+    @keyframes p6 { 0%, 85.7141% { opacity: 0; } 85.7142%, 99.9999% { opacity: 1; } 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .c { animation: none; opacity: 0; }
+      .c0 { opacity: 1; }
+    }
+  </style>
+  <rect width="1280" height="320" fill="#060609"/>
+  <rect x="616" y="48" width="48" height="4" fill="#00D4FF"/>
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" text-anchor="middle">
+    <text x="640" y="124" fill="#EAEAF0" font-size="72" font-weight="600" letter-spacing="-1.44">Jay Mount</text>
+    <text x="640" y="214" fill="#EAEAF0" font-size="28" font-weight="500" letter-spacing="-0.3">Value proposition · Landing page · Pricing strategy</text>
+    <text x="640" y="252" fill="#EAEAF0" font-size="28" font-weight="500" letter-spacing="-0.3">Generative engine optimization</text>
+  </g>
+  <text x="640" y="164" fill="#00D4FF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="500" letter-spacing="3.2" text-anchor="middle">CLAUDE CODE SKILLS</text>
+  <g fill="#9CA3AF" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="500" text-anchor="middle">
+    <text class="c c0" x="640" y="292">Also cold email</text>
+    <text class="c c1" x="640" y="292">Also LinkedIn posts</text>
+    <text class="c c2" x="640" y="292">Also answer engine optimization</text>
+    <text class="c c3" x="640" y="292">Also an ideal customer profile</text>
+    <text class="c c4" x="640" y="292">Also sales prospecting</text>
+    <text class="c c5" x="640" y="292">Also a sales offer</text>
+    <text class="c c6" x="640" y="292">Also an email sequence</text>
+  </g>
+</svg>

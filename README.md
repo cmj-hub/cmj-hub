@@ -24,7 +24,7 @@
 <div align="center">
 
   <a href="https://github.com/cmj-hub/gtm-operator-skills">
-    <img src="./assets/jobs.svg" width="880" alt="Claude Code skills for a value proposition, landing page, pricing strategy, generative engine optimization, answer engine optimization, cold email, LinkedIn posts, ideal customer profile, sales prospecting, sales offer, and email sequence. Jay Mount." />
+    <img src="./assets/lockup.svg" width="880" alt="Jay Mount. Claude Code skills for a value proposition, a landing page, pricing strategy, and generative engine optimization. Also cold email, LinkedIn posts, answer engine optimization, an ideal customer profile, sales prospecting, a sales offer, and an email sequence." />
   </a>
 
 </div>
@@ -40,13 +40,19 @@
 
 ## About
 
-Claude Code skills are MIT-licensed packs that score a founder's value proposition, landing page, pricing strategy, and generative engine optimization. Answer engine optimization is the second name for that last job.
+Founders search for a value proposition, a landing page, a pricing strategy, and generative engine optimization.
 
-The other packs cover cold email, LinkedIn posts, an ideal customer profile, sales prospecting, a sales offer, and an email sequence.
+Answer engine optimization is the other name for that last job.
 
-The build guide teaches a human. The pack teaches an agent. Each scorer is Python in the repo.
+The other six are cold email, LinkedIn posts, an ideal customer profile, sales prospecting, a sales offer, and an email sequence.
 
-The packs install into Claude Code, Cursor, Codex, Grok, Copilot, Windsurf, Cline, and OpenCode.
+The build guide teaches a human. The pack teaches an agent.
+
+Install a pack in the quickstart. The catalog is the full set.
+
+The check runs on your machine.
+
+The packs run in Claude Code, Cursor, Codex, Grok, Copilot, Windsurf, Cline, and OpenCode.
 
 Writing is on [jaymount.com](https://jaymount.com/). The company site is [jaymountconsulting.com](https://jaymountconsulting.com). The weekly note is [Friday Signal](https://jaymountconsulting.com/newsletter/signal).
 

@@ -24,7 +24,7 @@
 <div align="center">
 
   <a href="https://github.com/cmj-hub/gtm-operator-skills">
-    <img src="./assets/profile.svg" width="880" alt="Jay Mount. Claude Code skills. Ten MIT packs. Free build guides, free GTM tools, The GTM Directory, Friday Signal, Growth Audit, value proposition." />
+    <img src="./assets/jobs.svg" width="880" alt="Claude Code skills for a value proposition, landing page, pricing strategy, generative engine optimization, answer engine optimization, cold email, LinkedIn posts, ideal customer profile, sales prospecting, sales offer, and email sequence. Jay Mount." />
   </a>
 
 </div>

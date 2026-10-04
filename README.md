@@ -44,7 +44,7 @@ Each pack is one job.
 
 The build guide teaches a human. The pack teaches an agent.
 
-The check runs on your machine.
+The check runs on your machine. Each pack ships a SECURITY.md: its scripts are local Python, they open no network connection, and nothing is sent or posted.
 
 The same files install into Claude Code, Cursor, Codex, Grok, Copilot, Windsurf, Cline, and OpenCode.
 
@@ -53,6 +53,19 @@ Writing is on [jaymount.com](https://jaymount.com/). The company site is [jaymou
 ---
 
 ## Quickstart
+
+### Claude Code: all ten in one install
+
+```text
+/plugin marketplace add cmj-hub/gtm-operator-skills
+/plugin install gtm@gtm-operator-skills
+/gtm:setup
+/gtm:next
+```
+
+`/gtm:setup` asks who you are and who you sell to once, so no pack asks again. `/gtm:next` reads what you have so far and names the next command. Each pack is one command, listed in the table below.
+
+### Other agents: one pack at a time
 
 One command installs one pack. List the repos to install several.
 
@@ -126,19 +139,19 @@ Everything here is MIT licensed. The catalog is [gtm-operator-skills](https://gi
 
 <div align="center">
 
-| Pack | What it does | Stars | Forks |
-|:-----|:-------------|:-----:|:-----:|
-| **[All ten](https://github.com/cmj-hub/gtm-operator-skills)** | The catalog. One install line per pack. | [![Stars](https://img.shields.io/github/stars/cmj-hub/gtm-operator-skills?style=flat-square&color=FFD700)](https://github.com/cmj-hub/gtm-operator-skills) | [![Forks](https://img.shields.io/github/forks/cmj-hub/gtm-operator-skills?style=flat-square&color=blue)](https://github.com/cmj-hub/gtm-operator-skills/fork) |
-| **[Value proposition](https://github.com/cmj-hub/claude-evp)** | One line for why this buyer should care. [Open the tool](https://jaymountconsulting.com/tools/evp-generator). | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-evp?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-evp) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-evp?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-evp/fork) |
-| **[Landing page](https://github.com/cmj-hub/claude-landing-page)** | One page, one offer, and one action. | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-landing-page?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-landing-page) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-landing-page?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-landing-page/fork) |
-| **[Pricing strategy](https://github.com/cmj-hub/claude-pricing)** | What you charge, what it is compared with, where the discount leaks. [Open the tool](https://jaymountconsulting.com/tools/pricing-page-lab). | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-pricing?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-pricing) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-pricing?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-pricing/fork) |
-| **[Generative engine optimization](https://github.com/cmj-hub/claude-geo)** | How a page gets quoted by an answer engine. Also called answer engine optimization. | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-geo?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-geo) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-geo?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-geo/fork) |
-| **[Cold email](https://github.com/cmj-hub/claude-cold-email)** | A short note anchored to a public signal. [Open the tool](https://jaymountconsulting.com/tools/cold-email-linter). | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-cold-email?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-cold-email) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-cold-email?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-cold-email/fork) |
-| **[LinkedIn posts](https://github.com/cmj-hub/claude-founder-brand)** | Posts a buyer can tell came from the operator. [Open the tool](https://jaymountconsulting.com/tools/linkedin-post-critic). | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-founder-brand?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-founder-brand) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-founder-brand?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-founder-brand/fork) |
-| **[Ideal customer profile](https://github.com/cmj-hub/claude-psp)** | Who buys, drawn from a public signal and their words. [Open the tool](https://jaymountconsulting.com/tools/psp-extractor). | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-psp?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-psp) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-psp?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-psp/fork) |
-| **[Sales prospecting](https://github.com/cmj-hub/claude-prospect-list)** | The B2B prospect list you are willing to write to. | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-prospect-list?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-prospect-list) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-prospect-list?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-prospect-list/fork) |
-| **[Sales offer](https://github.com/cmj-hub/claude-sales-offer)** | What the buyer gets, what it costs, and why now. | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-sales-offer?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-sales-offer) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-sales-offer?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-sales-offer/fork) |
-| **[Email sequence](https://github.com/cmj-hub/claude-email-sequence)** | The series of emails after someone raises their hand. | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-email-sequence?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-email-sequence) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-email-sequence?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-email-sequence/fork) |
+| Pack | What it does | Claude Code | Stars | Forks |
+|:-----|:-------------|:------------|:-----:|:-----:|
+| **[All ten](https://github.com/cmj-hub/gtm-operator-skills)** | The suite. One install for all ten, plus `/gtm:setup` and `/gtm:next`. | `/gtm:next` | [![Stars](https://img.shields.io/github/stars/cmj-hub/gtm-operator-skills?style=flat-square&color=FFD700)](https://github.com/cmj-hub/gtm-operator-skills) | [![Forks](https://img.shields.io/github/forks/cmj-hub/gtm-operator-skills?style=flat-square&color=blue)](https://github.com/cmj-hub/gtm-operator-skills/fork) |
+| **[Value proposition](https://github.com/cmj-hub/claude-evp)** | One line for why this buyer should care. [Open the tool](https://jaymountconsulting.com/tools/evp-generator). | `/evp:evp` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-evp?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-evp) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-evp?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-evp/fork) |
+| **[Landing page](https://github.com/cmj-hub/claude-landing-page)** | One page, one offer, and one action. | `/landing-page:page` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-landing-page?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-landing-page) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-landing-page?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-landing-page/fork) |
+| **[Pricing strategy](https://github.com/cmj-hub/claude-pricing)** | What you charge, what it is compared with, where the discount leaks. [Open the tool](https://jaymountconsulting.com/tools/pricing-page-lab). | `/pricing:pricing` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-pricing?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-pricing) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-pricing?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-pricing/fork) |
+| **[Generative engine optimization](https://github.com/cmj-hub/claude-geo)** | How a page gets quoted by an answer engine. Also called answer engine optimization. | `/geo:geo` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-geo?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-geo) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-geo?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-geo/fork) |
+| **[Cold email](https://github.com/cmj-hub/claude-cold-email)** | A short note anchored to a public signal. [Open the tool](https://jaymountconsulting.com/tools/cold-email-linter). | `/cold-email:cold-email` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-cold-email?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-cold-email) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-cold-email?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-cold-email/fork) |
+| **[LinkedIn posts](https://github.com/cmj-hub/claude-founder-brand)** | Posts a buyer can tell came from the operator. [Open the tool](https://jaymountconsulting.com/tools/linkedin-post-critic). | `/founder-brand:founder-brand` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-founder-brand?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-founder-brand) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-founder-brand?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-founder-brand/fork) |
+| **[Ideal customer profile](https://github.com/cmj-hub/claude-psp)** | Who buys, drawn from a public signal and their words. [Open the tool](https://jaymountconsulting.com/tools/psp-extractor). | `/psp:psp` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-psp?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-psp) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-psp?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-psp/fork) |
+| **[Sales prospecting](https://github.com/cmj-hub/claude-prospect-list)** | The B2B prospect list you are willing to write to. | `/prospect-list:who-to-contact` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-prospect-list?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-prospect-list) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-prospect-list?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-prospect-list/fork) |
+| **[Sales offer](https://github.com/cmj-hub/claude-sales-offer)** | What the buyer gets, what it costs, and why now. | `/sales-offer:cold-offer` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-sales-offer?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-sales-offer) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-sales-offer?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-sales-offer/fork) |
+| **[Email sequence](https://github.com/cmj-hub/claude-email-sequence)** | The series of emails after someone raises their hand. | `/email-sequence:lifecycle-email` | [![Stars](https://img.shields.io/github/stars/cmj-hub/claude-email-sequence?style=flat-square&color=FFD700)](https://github.com/cmj-hub/claude-email-sequence) | [![Forks](https://img.shields.io/github/forks/cmj-hub/claude-email-sequence?style=flat-square&color=blue)](https://github.com/cmj-hub/claude-email-sequence/fork) |
 
 </div>
 

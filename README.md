@@ -48,7 +48,7 @@ The check runs on your machine. Each pack ships a SECURITY.md: its scripts are l
 
 The same files install into Claude Code, Cursor, Codex, Grok, Copilot, Windsurf, Cline, and OpenCode.
 
-Writing is on [jaymount.com](https://jaymount.com/). The company site is [jaymountconsulting.com](https://jaymountconsulting.com). The weekly note is [Friday Signal](https://jaymountconsulting.com/newsletter/signal).
+Writing is on [jaymount.com](https://jaymount.com/). The company site is [jaymountconsulting.com](https://jaymountconsulting.com). [Friday Signal](https://jaymountconsulting.com/newsletter/signal) is free emails on building GTM systems that compound. No pitch in it.
 
 ---
 
